@@ -1,0 +1,16 @@
+name       : ruby-gyoku
+version    : 1.3.1
+release    : 1
+source     :
+    - https://rubygems.org/downloads/gyoku-1.3.1.gem : b0c5c825718df093437ab6bf84a25f39711816ab52a3bb3d2dcfa44102d5c0f2
+license    : MIT
+component  : programming.ruby
+summary    : RubyGem - gyoku
+description: |
+    Gyoku translates Ruby Hashes to XML.
+builddeps  :
+    - pkgconfig(ruby-2.3)
+rundeps    :
+    - ruby-builder
+install    : |
+    %gem_install
