@@ -1,6 +1,6 @@
 name       : ruby-gyoku
 version    : 1.3.1
-release    : 2
+release    : 3
 source     :
     - https://rubygems.org/downloads/gyoku-1.3.1.gem : b0c5c825718df093437ab6bf84a25f39711816ab52a3bb3d2dcfa44102d5c0f2
 license    : MIT
